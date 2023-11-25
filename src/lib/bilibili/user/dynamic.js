@@ -255,7 +255,7 @@ let deal = async (ctx) => {
 };
 
 let setup = (route) => {
-	route.get('/bilibili/user/dynamic/:uid', deal);
+	route.get('/bilibili/user/dynamic/662660667', deal);
 };
 
 export default { setup };
